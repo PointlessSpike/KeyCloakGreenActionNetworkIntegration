@@ -1,0 +1,13 @@
+{
+  "realm": "greenparty-local",
+  "enabled": true,
+  "displayName": "Local Green Party",
+  "loginWithEmailAllowed": true,
+  "duplicateEmailsAllowed": false,
+  "registrationAllowed": false,
+  "resetPasswordAllowed": true,
+  "rememberMe": true,
+  "verifyEmail": false,
+  "editUsernameAllowed": false,
+  "internationalizationEnabled": true
+}

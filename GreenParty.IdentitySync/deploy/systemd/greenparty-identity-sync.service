@@ -6,5 +6,13 @@ Wants=network-online.target
 [Service]
 Type=oneshot
 WorkingDirectory=/opt/greenparty/identity-sync
-Environment=DOTNET_ENVIRONMENT=Production
+EnvironmentFile=/etc/greenparty-identity-sync/greenparty-identity-sync.env
 ExecStart=/usr/bin/dotnet /opt/greenparty/identity-sync/GreenParty.IdentitySync.dll --once
+User=greenparty-sync
+Group=greenparty-sync
+StateDirectory=greenparty-identity-sync
+RuntimeDirectory=greenparty-identity-sync
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+NoNewPrivileges=true
