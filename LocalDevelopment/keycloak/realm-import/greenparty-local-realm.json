@@ -1,7 +1,7 @@
 {
-  "realm": "mkgreens-local",
+  "realm": "greenparty-local",
   "enabled": true,
-  "displayName": "MK Greens Local",
+  "displayName": "Local Green Party",
   "loginWithEmailAllowed": true,
   "duplicateEmailsAllowed": false,
   "registrationAllowed": false,

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MkGreens.IdentitySync", "MkGreens.IdentitySync\MkGreens.IdentitySync.csproj", "{C67980B9-EEF3-4305-B313-061ABEFE66FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenParty.IdentitySync", "GreenParty.IdentitySync\GreenParty.IdentitySync.csproj", "{C67980B9-EEF3-4305-B313-061ABEFE66FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

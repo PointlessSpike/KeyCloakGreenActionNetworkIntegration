@@ -4,10 +4,10 @@ using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using Microsoft.Extensions.Options;
-using MkGreens.IdentitySync.Configuration;
-using MkGreens.IdentitySync.Models;
+using GreenParty.IdentitySync.Configuration;
+using GreenParty.IdentitySync.Models;
 
-namespace MkGreens.IdentitySync.Services;
+namespace GreenParty.IdentitySync.Services;
 
 public sealed class KeycloakAdminClient
 {

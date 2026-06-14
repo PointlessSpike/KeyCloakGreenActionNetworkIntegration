@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Options;
-using MkGreens.IdentitySync.Configuration;
+using GreenParty.IdentitySync.Configuration;
 
-namespace MkGreens.IdentitySync.Services;
+namespace GreenParty.IdentitySync.Services;
 
 public sealed class IdentitySyncHostedService : BackgroundService
 {

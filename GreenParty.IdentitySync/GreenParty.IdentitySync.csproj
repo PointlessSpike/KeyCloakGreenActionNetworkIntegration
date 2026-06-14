@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>dotnet-MkGreens.IdentitySync-d055adac-0b9f-4060-a36c-8253f09c6df0</UserSecretsId>
+    <UserSecretsId>dotnet-GreenParty.IdentitySync-d055adac-0b9f-4060-a36c-8253f09c6df0</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

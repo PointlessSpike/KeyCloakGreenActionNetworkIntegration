@@ -1,4 +1,4 @@
-namespace MkGreens.IdentitySync.Models;
+namespace GreenParty.IdentitySync.Models;
 
 public sealed class SyncRunStats
 {

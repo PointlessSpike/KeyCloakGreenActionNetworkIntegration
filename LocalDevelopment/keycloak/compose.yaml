@@ -1,7 +1,7 @@
 services:
   keycloak-db:
     image: postgres:16-alpine
-    container_name: mkgreens-keycloak-db
+    container_name: greenparty-keycloak-db
     environment:
       POSTGRES_DB: ${KEYCLOAK_DB_NAME:-keycloak}
       POSTGRES_USER: ${KEYCLOAK_DB_USER:-keycloak}
@@ -16,7 +16,7 @@ services:
 
   keycloak:
     image: quay.io/keycloak/keycloak:25.0
-    container_name: mkgreens-keycloak
+    container_name: greenparty-keycloak
     command:
       - start-dev
       - --import-realm

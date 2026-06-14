@@ -1,11 +1,11 @@
 [Unit]
-Description=Run MK Greens identity sync every 15 minutes
+Description=Run local Green Party identity sync every 15 minutes
 
 [Timer]
 OnBootSec=2min
 OnUnitActiveSec=15min
 Persistent=true
-Unit=mkgreens-identity-sync.service
+Unit=greenparty-identity-sync.service
 
 [Install]
 WantedBy=timers.target

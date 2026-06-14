@@ -1,4 +1,4 @@
-namespace MkGreens.IdentitySync.Configuration;
+namespace GreenParty.IdentitySync.Configuration;
 
 public sealed class ActionNetworkOptions
 {

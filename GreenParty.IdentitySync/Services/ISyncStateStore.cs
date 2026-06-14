@@ -1,6 +1,6 @@
-using MkGreens.IdentitySync.Models;
+using GreenParty.IdentitySync.Models;
 
-namespace MkGreens.IdentitySync.Services;
+namespace GreenParty.IdentitySync.Services;
 
 public interface ISyncStateStore
 {

@@ -1,0 +1,10 @@
+[Unit]
+Description=Local Green Party identity sync job
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/greenparty/identity-sync
+Environment=DOTNET_ENVIRONMENT=Production
+ExecStart=/usr/bin/dotnet /opt/greenparty/identity-sync/GreenParty.IdentitySync.dll --once

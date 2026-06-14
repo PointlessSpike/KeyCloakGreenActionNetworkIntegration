@@ -1,7 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using MkGreens.IdentitySync.Configuration;
-using MkGreens.IdentitySync.Services;
+using GreenParty.IdentitySync.Configuration;
+using GreenParty.IdentitySync.Services;
 
 return await MainAsync(args);
 
